@@ -1,0 +1,203 @@
+/* General reset & theme */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+ font-family: "Lucida Handwriting", Times, serif;
+  font-size: 50px;
+  color: #44b123;
+}
+
+header p {
+  color: #555;
+}
+
+/* Sections */
+main section {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+main h2 {
+ font-family: "Times New Roman", Times, serif;
+  font-size: 3vmin;
+  margin-bottom: 10px;
+  color: #d01717d3;
+}
+/* Form */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin-top: 4px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+button {
+  background-color: #d21960;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6f9400;
+}
+
+/* Filters */
+section input[type="text"],
+section input[type="date"],
+section select {
+  max-width: 180px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* Summary */
+#total, #count, #avg {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+/* Expense list */
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6f8f0;
+  padding: 10px;
+  border-radius: px;
+}
+
+.expense-item span {
+  font-size: 0.9rem;
+}
+
+.expense-actions button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 1px 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 105px;
+  height: 45px;
+}
+
+.expense-actions button:hover {
+  background: #c62828;
+}
+
+/* No data text */
+#noData {
+  text-align: center;
+  color: #777;
+}
+
+/* Category breakdown */
+#breakdown {
+  color: #555;
+}
+/* Expense list */
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6f8f0;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.expense-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-details span {
+  font-size: 0.9rem;
+}
+
+.expense-actions button {
+  background: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.expense-actions button:hover {
+  background: #c62828;
+}
+
+/* No data text */
+#noData {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Category breakdown */
+.category-summary {
+  margin-top: 20px;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.category-summary h3 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+#breakdown {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.delete-btn{
+  width: 100px;
+}
