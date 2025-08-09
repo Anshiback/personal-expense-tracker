@@ -1,31 +1,29 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# personal expense tracker 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: tech titans
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
+- Team Lead: anshiba ck - emea college
+- Member 2: ishma sana  - emea college
 ### Project Description
-[2-3 lines about what your project does]
+the project is really a useful one in this current situation and in the future.it is really helpful for each individual.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+we solved the problem of an individual who can record his expense very simply and clearly
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+it is really intresting especially the coding process
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- html,css,js
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
